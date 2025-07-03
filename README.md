@@ -1,10 +1,10 @@
-# 📈 Smart Auto-Scaler – Multi-Tier Forecast-Based Auto Scaling
+# Smart Auto-Scaler – Multi-Tier Forecast-Based Auto Scaling
 
 A complete AI-driven auto-scaling simulation for cloud-native applications. This project forecasts system metrics and automatically adjusts resources across multiple tiers (App + DB) based on predicted demand, anomalies, and scaling rules.
 
 ---
 
-## 🚀 Features
+##  Features
 
 ✅ Simulated monitoring of key metrics (CPU, RPS, DB Latency)  
 ✅ Time Series Forecasting using [Facebook Prophet](https://facebook.github.io/prophet/)  
@@ -15,7 +15,7 @@ A complete AI-driven auto-scaling simulation for cloud-native applications. This
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 ```
 [Monitoring] → [Prediction] → [Decision Engine] → [Scaling Executor]
@@ -30,7 +30,7 @@ Modules:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 smart-autoscaler/
@@ -49,19 +49,19 @@ smart-autoscaler/
 
 ## 🧪 How to Run
 
-### 1. 📦 Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 pip install prophet pandas matplotlib numpy schedule
 ```
 
-> ✅ Tip: For Windows/macOS, use `cmdstanpy` backend for Prophet
+> Tip: For Windows/macOS, use `cmdstanpy` backend for Prophet
 
 ```bash
 pip install cmdstanpy
 ```
 
-### 2. 🚀 Start Auto-Scaler
+### 2. Start Auto-Scaler
 
 ```bash
 python autoscaler.py
@@ -73,18 +73,18 @@ python autoscaler.py
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```
-🧠 Detected Bottlenecks: CPU
-📈 App Tier Decision: ⬆️ App Scale UP: CPU 87.3% → 3 instances
-📊 DB Tier Decision: ✅ DB Scaling: Latency avg 102ms. No change.
-[2025-07-03 11:49:54] 🚀 Scaling App Tier → 3 instances
+ Detected Bottlenecks: CPU
+ App Tier Decision: ⬆ App Scale UP: CPU 87.3% → 3 instances
+DB Tier Decision: DB Scaling: Latency avg 102ms. No change.
+[2025-07-03 11:49:54]  Scaling App Tier → 3 instances
 ```
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - AI/ML: Forecasting with Prophet, anomaly detection
 - DevOps: Resource scaling logic with cooldown, rules
@@ -94,11 +94,11 @@ python autoscaler.py
 
 ---
 
-## 🪪 License
+## License
 
 MIT License © 2025 Varun Teja Kalakoti
 
 ---
 
 Built for cloud simulation, intelligent systems coursework, and DevOps readiness.  
-Let it forecast, auto-scale, and impress! 🚀
+Let it forecast, auto-scale, and impress! 

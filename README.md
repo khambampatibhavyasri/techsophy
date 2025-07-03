@@ -94,11 +94,4 @@ DB Tier Decision: DB Scaling: Latency avg 102ms. No change.
 
 ---
 
-## License
 
-MIT License © 2025 Varun Teja Kalakoti
-
----
-
-Built for cloud simulation, intelligent systems coursework, and DevOps readiness.  
-Let it forecast, auto-scale, and impress! 
